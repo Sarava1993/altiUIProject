@@ -1,0 +1,236 @@
+body {
+  background-color: #002b4b !important;
+} 
+
+.customHeader {
+  height: 60px;
+  margin: 20px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customLogo {
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: Palatino;
+}
+
+.customHeadingTitle {
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+  font-style: italic;
+  padding: 5px;
+}
+
+.customDashboardHeader {
+  color: white;
+  font-family: Palatino;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 24px;
+  font-style: italic;
+}
+
+.customHeadingTitle:hover {
+  background-color: #e65a14;
+  color: white;
+  cursor: pointer;
+}
+
+.cardDetailsConfirm  .customBtn {
+  outline: 0 !important;
+}
+
+.customLogout {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.appLogo {
+  height: 35px;
+}
+
+.appIntroParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.appIntro {
+  font-size: large;
+  max-width: 400px;
+  position:"relative";
+  top: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  min-height: 300px; 
+  width: 80%;
+  margin: 10px;
+}
+
+.customSuccessMsgHeader {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center; 
+  margin-bottom: 10px;
+}
+
+.customTextfield{
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 12px;
+}
+
+.customHeading {
+  color: #002b4b;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.customContent {
+  color: #faa200;
+  font-weight: bold;
+  font-size: 12px;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.appTitle {
+  display: flex;
+}
+
+.customDashboard {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+}
+
+.customDashboardContent {
+  background-color: white;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.customDashboardContent:hover {
+  border: 1px solid #faa200;
+  cursor: pointer;
+}
+
+.customRevenue {
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.customTextfield:focus, .customTextarea:focus{
+  outline: 0;
+  box-shadow: 0px 0px 1px 1px rgba(0, 128, 0, 0.5);
+  border: 0;
+}
+
+.cardDetailsConfirm .label{
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.cardDetailsConfirm .title{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.customText {
+  font-size: 12px;
+  color: white;
+}
+
+.customBtn {
+  padding: 2px 10px; 
+  color: #002b4b;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 5px;
+  border: 1px solid #002b4b;
+  margin: 10px 0px;
+}
+
+.customRadio {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.customRadio .alignRadioBtn{
+  margin-right: 5px;
+  margin-left: 3px;
+}
+
+.customDropdown {
+  border-radius: 5px;
+  width: 100%;
+  outline: 0;
+  color: #002b4b;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.text-right {
+  text-align: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.customErrMsg {
+  padding: 3px;
+  color: red;
+  background-color: white;
+  font-style: italic;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.customSuccessMsg {
+  padding: 3px;
+  color: green;
+  background-color: white;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.customSuccessLoginMsg {
+  padding: 3px;
+  color: green;
+  background-color: white;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
